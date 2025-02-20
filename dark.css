@@ -1,0 +1,22 @@
+/* 5.2: Dark mode base styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Style input fields */
+input.snippet-title, textarea {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #555;
+}
+
+/* Navbar styles */
+.navbar {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Editing panel styles */
+.editor {
+    border-left: 1px solid #e0e0e0;
+}

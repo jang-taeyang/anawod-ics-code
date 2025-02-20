@@ -1,0 +1,46 @@
+/* 3.1: Default fonts */
+body {
+    font-family: sans-serif;
+}
+
+textarea {
+    font-family: monospace;
+}
+
+/* 3.2: Navbar styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    gap: 1em;
+}
+
+/* 3.3: Logo styling */
+.navbar img {
+    height: 100%;
+}
+
+/* 3.4: Snippet Title Input */
+.snippet-title {
+    font-size: 1em;
+    padding: 0.4em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* 3.5: Tab styling */
+.navbar a {
+    background-color: #3498db;
+    color: white;
+    margin: 0.16em;
+    padding: 0.64em;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* 4.6: Editing panel styling */
+.editor {
+    width: 100%;
+    float: left;
+    padding: 1em;
+}

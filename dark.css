@@ -4,11 +4,11 @@ body {
     color: #e0e0e0;
 }
 
-/* Style input fields */
+/* Style input fields - Make text boxes white */
 input.snippet-title, textarea {
-    background-color: #1e1e1e;
-    color: #e0e0e0;
-    border: 1px solid #555;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    border: 1px solid #aaa;
 }
 
 /* Navbar styles */
@@ -16,7 +16,21 @@ input.snippet-title, textarea {
     border-bottom: 1px solid #e0e0e0;
 }
 
-/* Editing panel styles */
+/* Editing panel styles - No left border */
 .editor {
-    border-left: 1px solid #e0e0e0;
+    border-left: none;
+}
+
+/* Buttons - Updated Blue Color */
+.navbar a {
+    background-color: #1e90ff; /* New shade of blue */
+    color: white;
+    margin: 0.16em;
+    padding: 0.64em;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.navbar a:hover {
+    background-color: #0d78d0; /* Slightly darker blue on hover */
 }

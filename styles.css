@@ -12,7 +12,6 @@ textarea {
     display: flex;
     align-items: center;
     border-bottom: 1px solid black;
-    gap: 1em;
 }
 
 /* 3.3: Logo styling */
@@ -20,27 +19,24 @@ textarea {
     height: 100%;
 }
 
-/* 3.4: Snippet Title Input */
-.snippet-title {
-    font-size: 1em;
-    padding: 0.4em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-/* 3.5: Tab styling */
+/* 3.4: Tab styling */
 .navbar a {
     background-color: #3498db;
     color: white;
     margin: 0.16em;
     padding: 0.64em;
     text-decoration: none;
-    border-radius: 4px;
+}
+
+/* 4.5: Sidebar styling */
+.sidebar {
+    width: 16%;
+    float: left;
 }
 
 /* 4.6: Editing panel styling */
 .editor {
-    width: 100%;
+    width: 80%;
     float: left;
-    padding: 1em;
+    border-left: 1px solid black;
 }
